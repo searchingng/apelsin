@@ -1,0 +1,569 @@
+02 Apr 2022 - 14:23:26.937 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 7708 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 14:23:26.956 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 14:23:28.273 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 14:23:28.342 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+02 Apr 2022 - 14:23:29.016 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 Apr 2022 - 14:23:29.024 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Apr 2022 - 14:23:29.025 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+02 Apr 2022 - 14:23:29.217 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Apr 2022 - 14:23:29.218 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2192 ms
+02 Apr 2022 - 14:23:29.455 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 14:23:29.516 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 14:23:29.652 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 14:23:29.747 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 14:23:30.004 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 14:23:30.042 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 14:23:31.216 -  WARN  - o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+02 Apr 2022 - 14:23:31.216 -  WARN  - o.h.e.jdbc.spi.SqlExceptionHelper - ограничение "uk_492xmgvvn7qbnwhcvpr3yor6h" в таблице "card" не существует, пропускается
+02 Apr 2022 - 14:23:31.230 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 14:23:31.239 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 14:23:31.727 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 14:23:32.301 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 14:23:32.704 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 Apr 2022 - 14:23:32.959 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 6.587 seconds (JVM running for 7.936)
+02 Apr 2022 - 14:27:08.306 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 14:27:08.310 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 14:27:08.320 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 16:01:52.476 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 7904 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 16:01:52.476 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 16:01:53.287 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 16:01:53.381 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 16:01:54.068 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 Apr 2022 - 16:01:54.068 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Apr 2022 - 16:01:54.068 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+02 Apr 2022 - 16:01:54.178 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Apr 2022 - 16:01:54.178 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1656 ms
+02 Apr 2022 - 16:01:54.319 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 16:01:54.367 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 16:01:54.492 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 16:01:54.586 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 16:01:54.759 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 16:01:54.775 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 16:01:54.916 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 16:01:55.465 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 16:01:55.481 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 16:01:56.218 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 16:01:56.642 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 16:01:56.925 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 Apr 2022 - 16:01:57.129 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 5.13 seconds (JVM running for 6.13)
+02 Apr 2022 - 16:04:18.919 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Apr 2022 - 16:04:18.920 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Apr 2022 - 16:04:18.921 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+02 Apr 2022 - 16:24:08.468 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 16:24:08.475 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 16:24:08.497 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 16:24:14.265 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 1712 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 16:24:14.270 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 16:24:15.869 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 16:24:15.976 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 16:24:16.773 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 Apr 2022 - 16:24:16.786 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Apr 2022 - 16:24:16.787 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+02 Apr 2022 - 16:24:16.978 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Apr 2022 - 16:24:16.978 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2642 ms
+02 Apr 2022 - 16:24:17.136 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 16:24:17.205 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 16:24:17.422 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 16:24:17.510 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 16:24:17.721 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 16:24:17.754 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 16:24:17.932 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 16:24:18.711 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 16:24:18.735 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 16:24:19.303 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 16:24:19.931 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 16:24:20.482 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 Apr 2022 - 16:24:20.884 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 7.37 seconds (JVM running for 8.43)
+02 Apr 2022 - 16:24:26.941 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Apr 2022 - 16:24:26.942 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Apr 2022 - 16:24:26.947 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+02 Apr 2022 - 16:26:39.270 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 16:26:39.275 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 16:26:39.292 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 16:26:43.468 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 7072 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 16:26:43.471 -  DEBUG - c.company.apelsin.ApelsinApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+02 Apr 2022 - 16:26:43.472 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 16:26:44.741 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 16:26:44.869 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 16:26:45.664 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 Apr 2022 - 16:26:45.700 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Apr 2022 - 16:26:45.700 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+02 Apr 2022 - 16:26:45.968 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Apr 2022 - 16:26:45.969 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2433 ms
+02 Apr 2022 - 16:26:46.229 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 16:26:46.312 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 16:26:46.472 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 16:26:46.558 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 16:26:46.847 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 16:26:46.888 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 16:26:47.245 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 16:26:48.367 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 16:26:48.382 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 16:26:48.746 -  DEBUG - c.c.a.config.jwt.JwtTokenFilter - Filter 'jwtTokenFilter' configured for use
+02 Apr 2022 - 16:26:48.794 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 16:26:49.356 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 16:26:49.965 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 Apr 2022 - 16:26:50.338 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 7.396 seconds (JVM running for 8.324)
+02 Apr 2022 - 16:27:19.152 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Apr 2022 - 16:27:19.153 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Apr 2022 - 16:27:19.158 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+02 Apr 2022 - 16:27:33.701 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 16:27:33.706 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 16:27:33.711 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 16:31:05.397 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 3956 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 16:31:05.401 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 16:31:06.797 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 16:31:06.924 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 110 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 16:31:07.825 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 Apr 2022 - 16:31:07.840 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Apr 2022 - 16:31:07.840 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+02 Apr 2022 - 16:31:08.121 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Apr 2022 - 16:31:08.122 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2657 ms
+02 Apr 2022 - 16:31:08.352 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 16:31:08.423 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 16:31:08.643 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 16:31:08.791 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 16:31:09.057 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 16:31:09.091 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 16:31:09.372 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 16:31:10.238 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 16:31:10.249 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 16:31:10.635 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 16:31:11.367 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 16:31:12.055 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 Apr 2022 - 16:31:12.426 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 7.509 seconds (JVM running for 8.571)
+02 Apr 2022 - 16:31:16.037 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Apr 2022 - 16:31:16.039 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Apr 2022 - 16:31:16.042 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+02 Apr 2022 - 16:32:40.078 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 16:32:40.078 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 16:32:40.098 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 16:32:46.565 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 1936 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 16:32:46.569 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 16:32:48.061 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 16:32:48.192 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 16:32:49.177 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 Apr 2022 - 16:32:49.191 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Apr 2022 - 16:32:49.192 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+02 Apr 2022 - 16:32:49.494 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Apr 2022 - 16:32:49.494 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2864 ms
+02 Apr 2022 - 16:32:49.730 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 16:32:49.811 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 16:32:50.010 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 16:32:50.160 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 16:32:50.557 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 16:32:50.599 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 16:32:50.878 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 16:32:51.997 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 16:32:52.015 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 16:32:52.424 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 16:32:53.207 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 16:32:53.768 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 Apr 2022 - 16:32:54.084 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 8.008 seconds (JVM running for 8.997)
+02 Apr 2022 - 16:33:11.602 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Apr 2022 - 16:33:11.603 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Apr 2022 - 16:33:11.607 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+02 Apr 2022 - 16:40:05.445 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 16:40:05.445 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 16:40:05.473 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 16:40:11.162 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 9068 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 16:40:11.166 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 16:40:12.717 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 16:40:12.821 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 16:40:13.796 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 Apr 2022 - 16:40:13.808 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Apr 2022 - 16:40:13.808 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+02 Apr 2022 - 16:40:14.025 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Apr 2022 - 16:40:14.026 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2790 ms
+02 Apr 2022 - 16:40:14.241 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 16:40:14.291 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 16:40:14.485 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 16:40:14.622 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 16:40:14.836 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 16:40:14.871 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 16:40:15.151 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 16:40:16.363 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 16:40:16.384 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 16:40:17.017 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 16:40:17.817 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 16:40:18.615 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 Apr 2022 - 16:40:19.135 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 8.489 seconds (JVM running for 9.929)
+02 Apr 2022 - 16:40:23.848 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Apr 2022 - 16:40:23.849 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Apr 2022 - 16:40:23.853 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+02 Apr 2022 - 16:54:49.432 -  WARN  - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s983ms267µs100ns).
+02 Apr 2022 - 16:58:17.756 -  WARN  - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m28s325ms714µs900ns).
+02 Apr 2022 - 17:03:44.224 -  WARN  - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s467ms473µs600ns).
+02 Apr 2022 - 17:03:55.972 -  ERROR - o.a.c.c.C.[Tomcat].[localhost] - Exception Processing ErrorPage[errorCode=0, location=/error]
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: An established connection was aborted by the software in your host machine
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:310)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:273)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:523)
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:153)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1187)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1009)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.web.servlet.filter.ErrorPageSecurityFilter.doFilter(ErrorPageSecurityFilter.java:80)
+	at org.springframework.boot.web.servlet.filter.ErrorPageSecurityFilter.doFilter(ErrorPageSecurityFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:106)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:87)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:403)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:249)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1384)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:766)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:719)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:709)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:573)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:221)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1255)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:402)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:306)
+	... 96 common frames omitted
+02 Apr 2022 - 17:04:31.572 -  WARN  - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s347ms909µs800ns).
+02 Apr 2022 - 17:05:33.800 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:05:33.805 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 17:05:33.812 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 17:05:41.626 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 4192 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 17:05:41.631 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 17:05:43.032 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 17:05:43.132 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 17:05:44.004 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 Apr 2022 - 17:05:44.017 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Apr 2022 - 17:05:44.018 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+02 Apr 2022 - 17:05:44.288 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Apr 2022 - 17:05:44.289 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2581 ms
+02 Apr 2022 - 17:05:44.503 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 17:05:44.571 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 17:05:44.787 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 17:05:44.874 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 17:05:45.050 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 17:05:45.075 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 17:05:45.258 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 17:05:46.012 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 17:05:46.026 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:05:46.540 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 17:05:47.179 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 17:05:47.629 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 Apr 2022 - 17:05:47.931 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 7.08 seconds (JVM running for 8.251)
+02 Apr 2022 - 17:06:04.750 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Apr 2022 - 17:06:04.751 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Apr 2022 - 17:06:04.753 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+02 Apr 2022 - 17:09:29.822 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:09:29.822 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 17:09:29.849 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 17:09:37.834 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 11732 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 17:09:37.838 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 17:09:39.235 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 17:09:39.355 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 17:09:40.138 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 Apr 2022 - 17:09:40.147 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Apr 2022 - 17:09:40.147 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+02 Apr 2022 - 17:09:40.327 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Apr 2022 - 17:09:40.328 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2416 ms
+02 Apr 2022 - 17:09:40.557 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 17:09:40.640 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 17:09:40.873 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 17:09:40.981 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 17:09:41.456 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 17:09:41.500 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 17:09:41.878 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 17:09:42.870 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 17:09:42.901 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:09:43.363 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 17:09:44.013 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 17:09:44.445 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 Apr 2022 - 17:09:44.761 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 7.602 seconds (JVM running for 8.747)
+02 Apr 2022 - 17:10:05.123 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Apr 2022 - 17:10:05.124 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Apr 2022 - 17:10:05.130 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+02 Apr 2022 - 17:10:24.409 -  WARN  - o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [108] milliseconds.
+02 Apr 2022 - 17:11:19.885 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:11:19.888 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 17:11:19.893 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 17:18:26.982 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 11944 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 17:18:26.986 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 17:18:28.356 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 17:18:28.491 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 117 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 17:18:29.663 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 Apr 2022 - 17:18:29.674 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Apr 2022 - 17:18:29.675 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+02 Apr 2022 - 17:18:29.994 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Apr 2022 - 17:18:29.995 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2955 ms
+02 Apr 2022 - 17:18:30.423 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 17:18:30.472 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 17:18:30.692 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 17:18:30.826 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 17:18:31.317 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 17:18:31.372 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 17:18:31.665 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 17:18:33.217 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 17:18:33.229 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:18:33.702 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 17:18:34.558 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 17:18:35.322 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 Apr 2022 - 17:18:35.711 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 9.29 seconds (JVM running for 10.626)
+02 Apr 2022 - 17:18:46.595 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:18:46.598 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 17:18:46.601 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 17:18:56.084 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 3308 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 17:18:56.088 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 17:18:58.144 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 17:18:58.296 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 122 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 17:18:59.195 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 Apr 2022 - 17:18:59.207 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Apr 2022 - 17:18:59.207 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+02 Apr 2022 - 17:18:59.534 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Apr 2022 - 17:18:59.534 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3374 ms
+02 Apr 2022 - 17:18:59.700 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 17:18:59.777 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 17:18:59.971 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 17:19:00.095 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 17:19:00.320 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 17:19:00.350 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 17:19:00.595 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 17:19:01.494 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 17:19:01.503 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:19:02.229 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 17:19:02.923 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 17:19:03.579 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 Apr 2022 - 17:19:03.855 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 8.63 seconds (JVM running for 10.042)
+02 Apr 2022 - 17:20:00.383 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:20:00.388 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 17:20:00.399 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 17:20:09.323 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 3576 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 17:20:09.327 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 17:20:10.716 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 17:20:10.810 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 17:20:11.541 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 Apr 2022 - 17:20:11.551 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Apr 2022 - 17:20:11.551 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+02 Apr 2022 - 17:20:11.806 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Apr 2022 - 17:20:11.806 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2412 ms
+02 Apr 2022 - 17:20:11.970 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 17:20:12.022 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 17:20:12.174 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 17:20:12.277 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 17:20:12.489 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 17:20:12.516 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 17:20:12.751 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 17:20:13.814 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 17:20:13.834 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:20:14.549 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 17:20:15.231 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 17:20:16.302 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 Apr 2022 - 17:20:16.738 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 7.934 seconds (JVM running for 9.213)
+02 Apr 2022 - 17:20:30.539 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Apr 2022 - 17:20:30.540 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Apr 2022 - 17:20:30.545 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+02 Apr 2022 - 17:20:31.242 -  WARN  - o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [108] milliseconds.
+02 Apr 2022 - 17:21:02.448 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:21:02.464 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 17:21:02.477 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 17:48:39.219 -  INFO  - c.c.apelsin.ApelsinApplicationTests - Starting ApelsinApplicationTests using Java 17 on DESKTOP-CO9R0N4 with PID 4712 (started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 17:48:39.223 -  INFO  - c.c.apelsin.ApelsinApplicationTests - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 17:48:40.782 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 17:48:40.901 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 17:48:41.923 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 17:48:42.034 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 17:48:42.359 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 17:48:42.863 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 17:48:43.310 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 17:48:43.377 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 17:48:43.664 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 17:48:44.699 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 17:48:44.702 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:48:45.394 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 17:48:46.622 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 17:48:48.049 -  INFO  - c.c.apelsin.ApelsinApplicationTests - Started ApelsinApplicationTests in 9.37 seconds (JVM running for 11.07)
+02 Apr 2022 - 17:48:48.529 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:48:48.532 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 17:48:48.538 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 17:49:45.682 -  INFO  - c.c.apelsin.ApelsinApplicationTests - Starting ApelsinApplicationTests using Java 17 on DESKTOP-CO9R0N4 with PID 10852 (started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 17:49:45.684 -  INFO  - c.c.apelsin.ApelsinApplicationTests - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 17:49:47.209 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 17:49:47.322 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 17:49:48.535 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 17:49:48.622 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 17:49:48.854 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 17:49:49.248 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 17:49:49.570 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 17:49:49.624 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 17:49:49.926 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 17:49:50.868 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 17:49:50.871 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:49:51.525 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 17:49:52.584 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 17:49:54.179 -  INFO  - c.c.apelsin.ApelsinApplicationTests - Started ApelsinApplicationTests in 9.014 seconds (JVM running for 10.599)
+02 Apr 2022 - 17:49:54.782 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 17:49:54.794 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 17:49:54.806 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 18:06:10.212 -  INFO  - c.c.apelsin.ApelsinApplicationTests - Starting ApelsinApplicationTests using Java 17 on DESKTOP-CO9R0N4 with PID 11868 (started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 18:06:10.214 -  INFO  - c.c.apelsin.ApelsinApplicationTests - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 18:06:11.992 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 18:06:12.093 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 18:06:13.017 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 18:06:13.093 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 18:06:13.312 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 18:06:13.617 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 18:06:14.045 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 18:06:14.080 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 18:06:14.366 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 18:06:15.436 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 18:06:15.438 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 18:06:16.118 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 18:06:17.424 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 18:06:18.864 -  INFO  - c.c.apelsin.ApelsinApplicationTests - Started ApelsinApplicationTests in 9.158 seconds (JVM running for 10.73)
+02 Apr 2022 - 18:06:19.281 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 18:06:19.287 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 18:06:19.293 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 18:10:02.798 -  INFO  - c.c.apelsin.ApelsinApplicationTests - Starting ApelsinApplicationTests using Java 17 on DESKTOP-CO9R0N4 with PID 13532 (started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 18:10:02.804 -  INFO  - c.c.apelsin.ApelsinApplicationTests - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 18:10:04.468 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 18:10:04.577 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 18:10:05.517 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 18:10:05.592 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 18:10:05.807 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 18:10:06.026 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 18:10:06.346 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 18:10:06.384 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 18:10:06.629 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 18:10:07.693 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 18:10:07.702 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 18:10:08.448 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 18:10:09.637 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 18:10:11.031 -  INFO  - c.c.apelsin.ApelsinApplicationTests - Started ApelsinApplicationTests in 8.764 seconds (JVM running for 10.283)
+02 Apr 2022 - 18:10:12.135 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 18:10:12.141 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 18:10:12.150 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 18:34:26.573 -  INFO  - c.c.apelsin.ApelsinApplicationTests - Starting ApelsinApplicationTests using Java 17 on DESKTOP-CO9R0N4 with PID 13280 (started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 18:34:26.578 -  INFO  - c.c.apelsin.ApelsinApplicationTests - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 18:34:27.923 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 18:34:28.033 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 18:34:29.060 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 18:34:29.122 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 18:34:29.383 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 18:34:29.633 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 18:34:29.947 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 18:34:29.994 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 18:34:30.214 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 18:34:31.152 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 18:34:31.152 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 18:34:31.710 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 18:34:32.974 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 18:34:34.312 -  INFO  - c.c.apelsin.ApelsinApplicationTests - Started ApelsinApplicationTests in 8.283 seconds (JVM running for 9.966)
+02 Apr 2022 - 18:34:34.843 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 18:34:34.843 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 18:34:34.843 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Apr 2022 - 18:35:53.462 -  INFO  - c.c.apelsin.ApelsinApplicationTests - Starting ApelsinApplicationTests using Java 17 on DESKTOP-CO9R0N4 with PID 3344 (started by ssiro in C:\IdeaProjects\apelsin)
+02 Apr 2022 - 18:35:53.475 -  INFO  - c.c.apelsin.ApelsinApplicationTests - No active profile set, falling back to 1 default profile: "default"
+02 Apr 2022 - 18:35:54.562 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Apr 2022 - 18:35:54.640 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+02 Apr 2022 - 18:35:55.498 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Apr 2022 - 18:35:55.545 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+02 Apr 2022 - 18:35:55.749 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02 Apr 2022 - 18:35:55.937 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Apr 2022 - 18:35:56.172 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Apr 2022 - 18:35:56.220 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+02 Apr 2022 - 18:35:56.467 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+02 Apr 2022 - 18:35:57.211 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 Apr 2022 - 18:35:57.227 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 18:35:57.721 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Apr 2022 - 18:35:58.748 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+02 Apr 2022 - 18:35:59.986 -  INFO  - c.c.apelsin.ApelsinApplicationTests - Started ApelsinApplicationTests in 6.909 seconds (JVM running for 8.245)
+02 Apr 2022 - 18:36:00.510 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Apr 2022 - 18:36:00.510 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Apr 2022 - 18:36:00.510 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

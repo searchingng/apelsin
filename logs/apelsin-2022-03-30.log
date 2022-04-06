@@ -1,0 +1,28 @@
+06 Apr 2022 - 17:45:40.782 -  INFO  - c.company.apelsin.ApelsinApplication - Starting ApelsinApplication using Java 17 on DESKTOP-CO9R0N4 with PID 14196 (C:\IdeaProjects\apelsin\target\classes started by ssiro in C:\IdeaProjects\apelsin)
+06 Apr 2022 - 17:45:40.788 -  INFO  - c.company.apelsin.ApelsinApplication - No active profile set, falling back to 1 default profile: "default"
+06 Apr 2022 - 17:45:41.576 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+06 Apr 2022 - 17:45:41.647 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+06 Apr 2022 - 17:45:42.181 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+06 Apr 2022 - 17:45:42.192 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+06 Apr 2022 - 17:45:42.193 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+06 Apr 2022 - 17:45:42.325 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+06 Apr 2022 - 17:45:42.325 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1488 ms
+06 Apr 2022 - 17:45:42.449 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+06 Apr 2022 - 17:45:42.479 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+06 Apr 2022 - 17:45:42.568 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+06 Apr 2022 - 17:45:42.643 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+06 Apr 2022 - 17:45:42.781 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+06 Apr 2022 - 17:45:42.802 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+06 Apr 2022 - 17:45:42.938 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+06 Apr 2022 - 17:45:43.508 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+06 Apr 2022 - 17:45:43.514 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+06 Apr 2022 - 17:45:43.789 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06 Apr 2022 - 17:45:44.166 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+06 Apr 2022 - 17:45:44.498 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+06 Apr 2022 - 17:45:44.705 -  INFO  - c.company.apelsin.ApelsinApplication - Started ApelsinApplication in 4.338 seconds (JVM running for 5.067)
+06 Apr 2022 - 17:46:03.355 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06 Apr 2022 - 17:46:03.355 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+06 Apr 2022 - 17:46:03.357 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+06 Apr 2022 - 17:46:38.229 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+06 Apr 2022 - 17:46:38.231 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+06 Apr 2022 - 17:46:38.233 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
